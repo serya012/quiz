@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #5900ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3c008b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.aceitar-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #1900ff; /* Azul */
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.aceitar-btn:hover {
+    background-color: #357ae8; /* Azul mais escuro ao passar o mouse */
+}
